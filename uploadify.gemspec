@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{uploadify}
-  s.version = ""
+  s.version = "0.5.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adeptware, Inc."]
@@ -14,6 +14,16 @@ Gem::Specification.new do |s|
   s.email = %q{contact@adeptware.com}
   s.extra_rdoc_files = [
     "README"
+  ]
+  s.files = [
+    ".gitignore",
+     "MIT-LICENSE",
+     "README",
+     "Rakefile",
+     "VERSION",
+     "init.rb",
+     "lib/uploadify.rb",
+     "uploadify.gemspec"
   ]
   s.homepage = %q{http://github.com/adeptware/uploadify}
   s.rdoc_options = ["--charset=UTF-8"]
