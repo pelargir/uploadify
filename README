@@ -1,6 +1,8 @@
 = uploadify
 
 Adds multi-file upload support to your Rails application using Uploadify, a JQuery plugin.
+See http://www.uploadify.com
+
 
 == Installation
 
@@ -8,9 +10,15 @@ Install the gem directly:
 
   sudo gem install uploadify
 
+Then from the root of your Rails project:
+
+  script/generate uploadify
+
+
 == Usage
 
 TBD
+
 
 == Resources
 
